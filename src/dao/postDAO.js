@@ -1,4 +1,5 @@
 const { logger } = require('../utils/logger');
+const crypto = require('crypto');
 
 // aws sdk v3 imports
 const { DynamoDBClient } = require("@aws-sdk/client-dynamodb");

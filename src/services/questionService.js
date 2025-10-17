@@ -4,6 +4,8 @@ const { logger } = require("../utils/logger");
 const questionDAO = require("../dao/questionDAO");
 const userDAO = require("../dao/userDAO")
 
+const crypto = require('crypto');
+
 // function that parses through the request.body as questionItem
 // args: questionItem (resp.body), userId
 // return: question, success message

@@ -2,6 +2,8 @@ const bcrypt = require("bcrypt");
 const userDAO = require("../dao/userDAO");
 const { generateToken } = require("../utils/jwt");
 
+const crypto = require('crypto');
+
 // register a new user
 async function registerUser({ username, password }) {
 
