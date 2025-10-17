@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/ubuntu/triviatastic-test-backend
-touch filename.txt
+touch newfile.txt
 npm install
